@@ -10,3 +10,4 @@ def one_layer_refl(thick, sld, rough, sub_sld, sub_rough, qs):
     roughs = jnp.array([sub_rough, rough])
     slds = jnp.array([sub_sld, sld])
     return abeles(thicks, roughs, slds, qs)
+

@@ -29,3 +29,8 @@ def abeles(thicks: jnp.ndarray, roughs: jnp.ndarray, slds: jnp.ndarray, qs: jnp.
     # Calculate the reflectivity R from the total transfer matrix
     r = M10 / M00
     return (r * r.conj()).real
+
+
+def abeles_1l(
+    thick:
+)
